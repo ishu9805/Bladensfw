@@ -6,7 +6,6 @@ import datetime,logging, sys
 from pyrogram import Client
 from config import Config
 import httpx
-from web_utils import create_server
 
 # Get logging configurations
 logging.basicConfig(
